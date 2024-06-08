@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    text-align: center;
+    border: 2px solid black;
+    width: 350px;
+}
+button{
+    font-size: 4rem;
+    border:2px black soild;
+    border-radius: 50%;
+    background-color: rgb(90, 174, 252);
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: rgb(147, 203, 255);
+}
+button:active{
+    background-color: rgb(199, 228, 255);
+}
+#result{
+    font-size: 3.5rem;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+}
+#playerchoice,#compchoice{
+    font-size: 1.1rem;
+    display: flex;
+    align-self: center;
+    padding-left: 5px;
+    font-weight: bold;
+}
+#playerscore, #compscore{
+    display: inline;
+}
+#playerscore{
+    color: rgb(0, 255, 0);
+}
+#compscore{
+    color: red;
+}
