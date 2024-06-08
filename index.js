@@ -6,11 +6,6 @@ const result = document.getElementById("result");
 const playerscore = document.getElementById("playerscore");
 const compscore = document.getElementById("compscore");
 
-
-// to-do
-// define draw,win,lose functions
-// fix outside border of container
-
 function draw(){
     result.textContent = "IT'S A TIE";
     result.style.color = "black";
